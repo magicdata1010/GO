@@ -10,3 +10,5 @@ func main(){
 }
 
 error -  undeclared add indentifier 
+how to pass lots of prameter in golang function fun like in python ? 
+ 
