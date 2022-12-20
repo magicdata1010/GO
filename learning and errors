@@ -1,1 +1,12 @@
 https://github.com/a8m/golang-cheat-sheet   -  good cheat sheet overview
+package main
+
+func main(){
+
+	add=func (a,b int) (int){
+		return a+b
+
+	}
+}
+
+error -  undeclared add indentifier 
