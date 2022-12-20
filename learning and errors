@@ -14,4 +14,5 @@ how to pass lots of prameter in golang function fun like in python ? https://sta
 ans of 13 is we can use variadic functions too in golng to equal *args of python
 1. how to get len of array in go ? len(array)
 2. hw to call another function ? 
+
  
