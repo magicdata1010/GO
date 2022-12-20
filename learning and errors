@@ -15,6 +15,52 @@ ans of 13 is we can use variadic functions too in golng to equal *args of python
 1. how to get len of array in go ? len(array)
 2. hw to call another function ? 
 3. is arg and args keyword in go ? https://www.geeksforgeeks.org/command-line-arguments-in-golang/
-4.
+4. find error with this code  - 
+ package main
+
+func traverse(ar ...[]int) []int {
+
+	for i := 0; i < len(ar); i++ {
+		println(ar[i], "kk")
+
+	}
+	return ar
+}
+
+func main() {
+
+	add := func(a, b int) int {
+		return a + b
+
+	}
+	{
+		println(add(2, 3))
+	}
+	s := traverse(1)
+	println(s)
+}
+
+error - [{
+	"resource": "/C:/Users/91838/go_testing.go",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "IncompatibleAssign",
+		"target": {
+			"$mid": 1,
+			"external": "https://pkg.go.dev/golang.org/x/tools/internal/typesinternal#IncompatibleAssign",
+			"path": "/golang.org/x/tools/internal/typesinternal",
+			"scheme": "https",
+			"authority": "pkg.go.dev",
+			"fragment": "IncompatibleAssign"
+		}
+	},
+	"severity": 8,
+	"message": "cannot use ar (variable of type [][]int) as []int value in return statement",
+	"source": "compiler",
+	"startLineNumber": 9,
+	"startColumn": 9,
+	"endLineNumber": 9,
+	"endColumn": 11
+}]
 
  
