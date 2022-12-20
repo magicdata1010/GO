@@ -61,6 +61,8 @@ error - [{
 	"startColumn": 9,
 	"endLineNumber": 9,
 	"endColumn": 11
+	
+	5. how to pass list argument and return list in a func in go ? https://stackoverflow.com/questions/21719769/passing-an-array-as-an-argument-in-golang
 }]
 
  
