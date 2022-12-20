@@ -11,5 +11,6 @@ func main(){
 
 error -  undeclared add indentifier 
 how to pass lots of prameter in golang function fun like in python ? https://stackoverflow.com/questions/23447217/go-named-arguments#:~:text=There%20is%20no%20direct%20equivalent,can%20make%20your%20function%20variadic.
-
+1. how to get len of array in go ? len(array)
+2. hw to call another function ? 
  
