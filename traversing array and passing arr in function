@@ -23,3 +23,32 @@ func main() {
 	s := traverse([]int{1, 2, 3})
 	println(s, "kkkk")
 }
+2. error  - 
+package main
+
+func traverse(ar []int) int {
+
+	for i := 0; i < len(ar); i++ {
+		println(ar[i], "kk")
+
+	}
+	return ar[0]
+}
+
+func main() {
+
+	add := func(a, b int) int {
+		return a + b
+
+	}
+	{
+		println(add(2, 3))
+	}
+	a := [3]int{1, 2, 3}
+	//s := traverse([]int{1, 2, 3})
+	s := traverse(a)
+
+	println(s, "kkkk")
+}
+
+cannot use a (variable of type [3]int) as []int value in argument to traverse
