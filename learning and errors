@@ -64,5 +64,29 @@ error - [{
 	
 	5. how to pass list argument and return list in a func in go ? https://stackoverflow.com/questions/21719769/passing-an-array-as-an-argument-in-golang
 }]
+6. package main
 
+func traverse(ar ...[]int) []int {
+
+	for i := 0; i < len(ar); i++ {
+		println(ar[i], "kk")
+
+	}
+	return ar[0]
+}
+
+func main() {
+
+	add := func(a, b int) int {
+		return a + b
+
+	}
+	{
+		println(add(2, 3))
+	}
+	s := traverse(1)
+	println(s)
+}
+ error - .\go_testing.go:21:16: cannot use 1 (untyped int constant) as []int value in argument to traverse 
+ solution - 
  
