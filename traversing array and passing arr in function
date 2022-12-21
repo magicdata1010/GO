@@ -1,0 +1,25 @@
+how to pass array in a function call and traversing an array each element
+package main
+
+func traverse(ar []int) int {
+
+	for i := 0; i < len(ar); i++ {
+		println(ar[i], "kk")
+
+	}
+	return ar[0]
+}
+
+func main() {
+
+	add := func(a, b int) int {
+		return a + b
+
+	}
+	{
+		println(add(2, 3))
+	}
+	//a := [...]int{1, 2, 3}
+	s := traverse([]int{1, 2, 3})
+	println(s, "kkkk")
+}
