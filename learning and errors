@@ -90,4 +90,9 @@ func main() {
  error - .\go_testing.go:21:16: cannot use 1 (untyped int constant) as []int value in argument to traverse 
  solution - 
  6. https://github.com/shapeshed/golang-book-examples  -  good examples of that book
+ 7. how to pass array argument in function - https://www.geeksforgeeks.org/how-to-pass-an-array-to-a-function-in-golang/
+ 8. can we directly crreate array in function argument ? like lambda in python ?
+ 9. diff btw slice and array in go ? 
+ 10. 
+ 
  
