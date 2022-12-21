@@ -89,4 +89,5 @@ func main() {
 }
  error - .\go_testing.go:21:16: cannot use 1 (untyped int constant) as []int value in argument to traverse 
  solution - 
+ 6. https://github.com/shapeshed/golang-book-examples  -  good examples of that book
  
