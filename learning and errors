@@ -93,6 +93,6 @@ func main() {
  7. how to pass array argument in function - https://www.geeksforgeeks.org/how-to-pass-an-array-to-a-function-in-golang/
  8. can we directly crreate array in function argument ? like lambda in python ?
  9. diff btw slice and array in go ? 
- 10. 
+ 10. diff btw make and new keyword in golang ?
  
  
