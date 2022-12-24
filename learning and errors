@@ -95,5 +95,7 @@ func main() {
  9. diff btw slice and array in go ? 
  10. diff btw make and new keyword in golang ?
  11. https://go.dev/tour/list  - tour of go
- 12. vertex framework in golang - 
+ 12. vertex framework in golang - google for rest api
+ 13. python dictionary equivalent in go - https://stackoverflow.com/questions/40254007/go-equivalent-of-pythons-dictionary
+ 14. 
  
