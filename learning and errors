@@ -97,5 +97,5 @@ func main() {
  11. https://go.dev/tour/list  - tour of go
  12. vertex framework in golang - google for rest api
  13. python dictionary equivalent in go - https://stackoverflow.com/questions/40254007/go-equivalent-of-pythons-dictionary
- 14. 
+ 14. can we add memeory adress by 1 ? &s + 1 ?  is it possible ?
  
