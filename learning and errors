@@ -98,5 +98,5 @@ func main() {
  12. vertex framework in golang - google for rest api
  13. python dictionary equivalent in go - https://stackoverflow.com/questions/40254007/go-equivalent-of-pythons-dictionary
  14. can we add memeory adress by 1 ? &s + 1 ?  is it possible ? https://stackoverflow.com/questions/68321230/how-do-i-declare-a-pointer-at-a-specific-memory-address-in-go-golang-and-store-a
- 15. 
+ 15. how to create pointer in golang ?
  
