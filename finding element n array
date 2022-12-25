@@ -1,0 +1,47 @@
+func main() {
+
+	add := func(a, b int) int {
+		return a + b
+
+	}
+	{
+		println(add(2, 3))
+	}
+	a := [3]int{1, 2, 3}
+	//s := traverse([]int{1, 2, 3})
+	s := traverse(a)
+
+	println(s, "kkkk") // printing address of that s
+	///g :=vertex{1,2}
+	//g = 2
+	var g *int
+	g = &s // g is a pointer
+
+	println(*g, "go")
+	f := 4
+	d := &f
+	w := [3]int{1, 4, 3}
+	y, l := element_find(d, w)
+	println(y, l, "OO")
+
+}
+
+// finding an element - in array , taking inout from user in go
+
+func element_find(n *int, ar [3]int) (int, string) {
+	//n=&ar[0]
+	for i, _ := range ar {
+		println(i, "hh")
+		if *n == ar[i] {
+			return i, "found"
+			//break
+
+		} //else {
+		//return 3, "not found "
+
+	}
+	return 1, "2"
+
+}
+
+// return
