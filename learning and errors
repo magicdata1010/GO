@@ -98,5 +98,41 @@ func main() {
  12. vertex framework in golang - google for rest api
  13. python dictionary equivalent in go - https://stackoverflow.com/questions/40254007/go-equivalent-of-pythons-dictionary
  14. can we add memeory adress by 1 ? &s + 1 ?  is it possible ? https://stackoverflow.com/questions/68321230/how-do-i-declare-a-pointer-at-a-specific-memory-address-in-go-golang-and-store-a
- 15. how to create pointer in golang ?
+ 15. how to create pointer in golang ? https://stackoverflow.com/questions/68321230/how-do-i-declare-a-pointer-at-a-specific-memory-address-in-go-golang-and-store-a
+ 16. wt is **p in golang ?
+ 17 hw ti take user inout  - https://www.w3schools.com/go/go_input.php
+ 18.  error -[{
+	"resource": "/C:/Users/91838/go_testing.go",
+	"owner": "_generated_diagnostic_collection_name_#7",
+	"code": {
+		"value": "MissingReturn",
+		"target": {
+			"$mid": 1,
+			"external": "https://pkg.go.dev/golang.org/x/tools/internal/typesinternal#MissingReturn",
+			"path": "/golang.org/x/tools/internal/typesinternal",
+			"scheme": "https",
+			"authority": "pkg.go.dev",
+			"fragment": "MissingReturn"
+		}
+	},
+	"severity": 8,
+	"message": "missing return",
+	"source": "compiler",
+	"startLineNumber": 52,
+	"startColumn": 1,
+	"endLineNumber": 52,
+	"endColumn": 3
+}]
+ func element_find(n *int, ar []int) (int, string) {
+	//n=&ar[0]
+	for i, e := range ar {
+		if *n == ar[i] {
+			return i, "found"
+			//break
+
+		}
+
+	}
+	// return
+}
  
