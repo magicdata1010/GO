@@ -137,4 +137,6 @@ func main() {
 }
 20. https://stackoverflow.com/questions/20099144/provide-function-return-from-an-if-statement-issues
 21. y import state,ent goes away in vs code ?  https://stackoverflow.com/questions/48124565/why-does-vscode-delete-golang-source-on-save
+22. array slicing in golang ? https://www.programiz.com/golang/slice
+23. hw to print a slice in golang ?  https://www.programiz.com/golang/slice
  
