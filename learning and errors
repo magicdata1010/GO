@@ -165,6 +165,16 @@ func split_array(list [5]int) {
 
 27. idiomatic go  -  https://go.dev/doc/effective_go
 28. panic in functions ? --
+29. insert element in array  go ?
+30 memory and garbage collection of data structures in go ? book the way to go 
+31. diff btw insert and append ? https://dev.to/andyhaskell/a-closer-look-at-go-s-slice-append-function-3bhb
+32. can we only append in slice and not array ? yes 
+33. fmt.Println(c[0],&list[1],t, "ggg")
+    *(&c[0])=c[3]
+	fmt.Println(c[0],c[3],"ll")
+	
+34.
+
 
 
 
