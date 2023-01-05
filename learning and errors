@@ -139,4 +139,19 @@ func main() {
 21. y import state,ent goes away in vs code ?  https://stackoverflow.com/questions/48124565/why-does-vscode-delete-golang-source-on-save
 22. array slicing in golang ? https://www.programiz.com/golang/slice
 23. hw to print a slice in golang ?  https://www.programiz.com/golang/slice
+24. func split_array(list [5]int) {
+
+	c := &list
+	println(*c)
+}
+
+err -  illegal types for operand: print
+	[5]int
+	
+solution  - use fmt.Println  insead of println
+
+
+	
+	
+	
  
