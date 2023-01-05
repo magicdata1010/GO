@@ -163,6 +163,10 @@ func split_array(list [5]int) {
 	fmt.Println(*(&c[0]),&list[1], "ggg")
 }
 
+27. idiomatic go  -  https://go.dev/doc/effective_go
+28. panic in functions ? --
+
+
 
 
 
