@@ -149,6 +149,21 @@ err -  illegal types for operand: print
 	[5]int
 	
 solution  - use fmt.Println  insead of println
+25. hw to traverse memories using pointer ?
+func split_array(list [5]int) {
+    var c * [5]int
+	c = &list
+	fmt.Println(&c[3], "ggg")
+}
+
+26 after referencing are these memory address is same ? yes look at the output of &c and &list
+func split_array(list [5]int) {
+    var c * [5]int
+	c = &list
+	fmt.Println(*(&c[0]),&list[1], "ggg")
+}
+
+
 
 
 	
