@@ -173,7 +173,8 @@ func split_array(list [5]int) {
     *(&c[0])=c[3]
 	fmt.Println(c[0],c[3],"ll")
 	
-34.
+34. we cannot interchange memory addresss  - &c[0] =&c[2]
+35.
 
 
 
