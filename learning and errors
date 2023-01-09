@@ -174,7 +174,7 @@ func split_array(list [5]int) {
 	fmt.Println(c[0],c[3],"ll")
 	
 34. we cannot interchange memory addresss  - &c[0] =&c[2]
-35.
+35.can we do c[-1] like in python? no  err -invalid argument: index -1 (constant of type int) must not be negative
 
 
 
