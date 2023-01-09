@@ -175,6 +175,8 @@ func split_array(list [5]int) {
 	
 34. we cannot interchange memory addresss  - &c[0] =&c[2]
 35.can we do c[-1] like in python? no  err -invalid argument: index -1 (constant of type int) must not be negative
+36. solution for 35  -  https://yourbasic.org/golang/last-item-in-slice/#:~:text=Use%20the%20index%20len(a,a%20slice%20or%20array%20a%20.
+37.
 
 
 
