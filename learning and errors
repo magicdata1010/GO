@@ -178,7 +178,15 @@ func split_array(list [5]int) {
 36. solution for 35  -  https://yourbasic.org/golang/last-item-in-slice/#:~:text=Use%20the%20index%20len(a,a%20slice%20or%20array%20a%20.
 37. invalid operation: cannot index pointer (variable of type *[]int)  ,  we cannot do this on a slice  -  pointer := &rev , where rev []int 
 38. diff btw pointer in c and pointer in golang ?  https://getliner.com/picked-by-liner/reader-mode?url=https%3A%2F%2Fdave.cheney.net%2F2014%2F03%2F17%2Fpointers-in-go
-39.
+39. https://www.youtube.com/watch?v=1YEufRd3_Fk  ,  if we change values of same referenced pointers both pointers value  will change.
+ex -  pointer:=rev[pos]
+*(&pointer[len(rev)-(pos+1)]) = rev[pos]
+op - [1 3 4 6] &[1 3 4 6] uu
+0 1 6 oo
+1 oooo
+[1 3 4 1] &[1 3 4 1] uu
+
+40.
 
 
 
