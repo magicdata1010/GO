@@ -1,0 +1,43 @@
+func reverse(rev [4]int ){
+	// reverse array thru loop or using go methods and idioms 
+	//rev = append(rev , 6)
+
+// reversing using pointers 
+    pointer := &rev
+	//temp := pointer 
+
+
+
+  
+
+	for pos, _ :=range rev{
+
+		fmt.Println(rev,pointer,"uu")//for debugging
+
+		 fmt.Println(pos,rev[pos],*(&pointer[len(rev)-(pos+1)]),"oo") // for debugging
+
+		 if pos ==2{
+			fmt.Println(*pointer,"reverse list")
+			break
+
+		 }
+
+		*(&pointer[len(rev)-(pos+1)]),*(&pointer[pos]) = *(&rev[pos]), rev[len(rev)-(pos+1)]
+		//rev[pos]=*(&pointer[len(rev)-(pos+1)])
+
+
+		fmt.Println(*(&pointer[len(rev)-(pos+1)]),"oooo")// for debugging
+		fmt.Println(*pointer,"lll")// for debugging
+
+
+
+
+
+
+
+
+	}
+	fmt.Println(*pointer,"reverse list")
+	//return *pointer 
+
+}
