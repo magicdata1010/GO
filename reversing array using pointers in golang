@@ -41,3 +41,4 @@ func reverse(rev [4]int ){
 	//return *pointer 
 
 }
+g
