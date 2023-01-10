@@ -177,7 +177,8 @@ func split_array(list [5]int) {
 35.can we do c[-1] like in python? no  err -invalid argument: index -1 (constant of type int) must not be negative
 36. solution for 35  -  https://yourbasic.org/golang/last-item-in-slice/#:~:text=Use%20the%20index%20len(a,a%20slice%20or%20array%20a%20.
 37. invalid operation: cannot index pointer (variable of type *[]int)  ,  we cannot do this on a slice  -  pointer := &rev , where rev []int 
-38. diff btw pointer in c and pointer in golang ?
+38. diff btw pointer in c and pointer in golang ?  https://getliner.com/picked-by-liner/reader-mode?url=https%3A%2F%2Fdave.cheney.net%2F2014%2F03%2F17%2Fpointers-in-go
+39.
 
 
 
