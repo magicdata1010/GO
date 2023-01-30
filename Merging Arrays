@@ -1,1 +1,17 @@
-can we 
+func merge_array(p[]int ,o[]int  ) ([]int){
+
+  //d:="hh"
+  for pos,_ := range p{
+	 p=append(p,o[pos])
+	//  if pos == 1{
+	// 	return s 
+	//  } 
+	// return s 
+	//fmt.Println(s)
+}
+	//s:=append(p,1)
+	//fmt.Println()
+
+   fmt.Println( p,"merge")
+   return p
+}
