@@ -186,7 +186,12 @@ op - [1 3 4 6] &[1 3 4 6] uu
 1 oooo
 [1 3 4 1] &[1 3 4 1] uu
 
-40.
+40. can we merge two array in golang ? https://go.dev/tour/moretypes/15
+41 can we append 2 list in go ? no s:=append(p,o)  , err-  cannot use o (variable of type []int) as int value in argument to append
+42. scope of varibale declared in loop  in golang  - is for loop scope only  https://www.golinuxcloud.com/variable-scope-golang/
+43. strings in go ? https://go101.org/article/string.html
+44. 
+
 
 
 
