@@ -199,6 +199,7 @@ In Go, the make function is primarily used to create slices, maps, and channels.
 48. can we only make 1d slice? https://stackoverflow.com/questions/39804861/what-is-a-concise-way-to-create-a-2d-slice-in-go
 49, can we use array in recursion? yes
 50 how to find type of any datastructure in go?  reflect package use kind method in reflect 
+51 can we create slice out of array ? yes 
 
 
 
