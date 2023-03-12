@@ -193,7 +193,11 @@ op - [1 3 4 6] &[1 3 4 6] uu
 44. diff btw new nd make function ? 
 45. diff type of slices functions?
 46 when to use pointers in go ?
+47. wat other structures we can make using make function in go?
 
+In Go, the make function is primarily used to create slices, maps, and channels. Here are some examples of how to use the make function to create these data structures:
+48. can we only make 1d slice? https://stackoverflow.com/questions/39804861/what-is-a-concise-way-to-create-a-2d-slice-in-go
+49, can we use array in recursion?
 
 
 
